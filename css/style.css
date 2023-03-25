@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Menu Navegação */
+.menu { 
+	background-color: #000; 
+    position: fixed; 
+    z-index: 999; 
+	overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+}
+/* Menu Navegação */
+.menu a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 20px 17px 17px;
+	border-bottom: 3px solid transparent;
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-family: "Helvetica";
+	font-size: 14px;	
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+/*Menu Navegação*/
+.menu a:hover {
+	border-bottom: 3px solid white;
+	transition: all 0.5s ease;
+	color: white; 
+}
+/*Menu Navegação */
+.menu a.ativo {
+    background-color: gray;
+    color: white;   
+}
+.menu a.ativo:hover {
+	border-bottom: 3px solid rgb(250, 250, 250);
+	transition: all 0.4s ease;
+}
+/* Logo-Marca */
+#logomarca {
+	margin: -13px 30px -13px 45px;
+	height: 42px;
+	width: auto;
+}
+.logo {
+    cursor: pointer;
+    border-bottom: none !important;
+}
+
+
+/*Calendario.html*/
+
+.linha {
+    height: 100px;
+    margin-top: 20px;   
+}
+
+.partida {
+    width: 405px;
+    float: left;
+    border: 1px solid silver;
+    margin: 20px 20px 20px 20px;
+}
+
+/* horario da partida */
+.horariopartida {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.calendario{
+    overflow: hidden;
+    width: 1350px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.calendario img {
+    width: 100px;
+}
+
+
+.partida .horariopartida span {
+    display: block;
+    background-color: red;
+    padding: 2px 0 2px;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+}
+/*Previu partida*/
+.confronto {
+    transition: all 3s ease;
+    filter: grayscale(100%);
+}
+.confronto:hover {
+    filter: none;
+    transition: all 0.2s ease;
+}
+.confronto img {
+    max-width: 100%;
+}
+.confronto > div {
+      width: 150px;
+      float: left;
+ }
+/* separar os confrontos*/
+.confronto > .separarconfronto {
+    width: 100px;
+    display: table;
+    height: 155px;
+}
