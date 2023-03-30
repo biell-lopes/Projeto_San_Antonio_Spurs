@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+/* Menu Navegação */
+.menu { 
+	background-color: #000; 
+    position: fixed; 
+    z-index: 999; 
+	overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+}
+/* Menu Navegação */
+.menu a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 20px 17px 17px;
+	border-bottom: 3px solid transparent;
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-family: "Helvetica";
+	font-size: 14px;	
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+/*Menu Navegação*/
+.menu a:hover {
+	border-bottom: 3px solid white;
+	transition: all 0.5s ease;
+	color: white; 
+}
+/*Menu Navegação */
+.menu a.ativo {
+    background-color: gray;
+    color: white;   
+}
+.menu a.ativo:hover {
+	border-bottom: 3px solid rgb(250, 250, 250);
+	transition: all 0.4s ease;
+}
+/* Logo-Marca */
+#logomarca {
+	margin: -13px 30px -13px 45px;
+	height: 42px;
+	width: auto;
+}
+.logo {
+    cursor: pointer;
+    border-bottom: none !important;
+}
+
+
+/*Calendario.html*/
+
+.linha {
+    height: 200px;
+    margin-top: 20px;   
+}
+
+.partida {
+    width: 405px;
+    float: left;
+    border: 2px solid rgb(1, 1, 1);
+    margin: 20px 20px 20px 20px;
+}
+
+/* horario da partida */
+.horariopartida {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.calendario{
+    overflow: hidden;
+    width: 1350px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 110px;  
+    font-family: "Helvetica";
+    color: rgb(6, 0, 0);
+}
+
+.calendario img {
+    width: 100px;
+}
+
+
+.partida .horariopartida span {
+    display: block;
+    background-color: rgb(135, 12, 12);
+    padding: 2px 0 2px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    border-radius: 5px;
+}
+/*Previu partida*/
+/*
+.confronto {
+    transition: all 3s ease;
+    filter: grayscale(100%);
+}
+*/
+.confronto:hover {
+    filter: none;
+    transition: all 0.2s ease;
+}
+.confronto img {
+    max-width: 100%;
+}
+.confronto > div {
+      width: 150px;
+      float: left;
+ }
+/* separar os confrontos*/
+.confronto > .separarconfronto {
+    width: 100px;
+    display: table;
+    height: 155px;
+}
+
+.card {
+    overflow: hidden;
+    width: 1210px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px; 
+    font-family: "Helvetica";
+}
+.card img {
+    width: 300px;
+}
+.tecnico img {
+    width: 300px;
+    height: 415px;
+}
+.jogadores {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    opacity: 0.8; 
+    transition: all 0.2s ease; 
+}
+.jogadores a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.jogadores:hover {
+    transition: all 0.2s ease;
+    opacity: inherit;
+}
+
+.posicao {
+    color: grey;
+    font-size: 18px;
+}
