@@ -169,3 +169,15 @@
     color: grey;
     font-size: 18px;
 }
+/*Formatação dos textos*/
+.textos {  
+    text-align: center;
+}
+/*Formatação de imagens*/
+.img {
+    text-align: center;
+}
+/*Formatação de cadastro*/
+.cad{
+    text-align: right;
+}
