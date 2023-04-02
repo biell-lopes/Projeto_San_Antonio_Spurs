@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabela da NBA</title>
+	<style>
+		body {
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			font-size: 32px;
+			color: #333;
+		}
+		
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			box-shadow: 0px 0px 5px 1px #ccc;
+			background-color: #fff;
+			border-radius: 5px;
+			overflow: hidden;
+			font-size: 16px;
+			float: left;
+			margin-right: 20px;
+		}
+		
+		th, td {
+			padding: 12px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+			color: #333;
+		}
+		
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+		
+		.spurs {
+			background-color: #c4c4c4;
+			font-weight: bold;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Tabela da NBA</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Time</th>
+					<th>Jogos</th>
+					<th>Vitórias</th>
+					<th>Derrotas</th>
+					<th>% Vitória</th>
+					<th>Jogos Atrás</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="spurs">San Antonio Spurs</td>
+					<td>60</td>
+					<td>40</td>
+					<td>20</td>
+					<td>.667</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Golden State Warriors</td>
+					<td>62</td>
+					<td>38</td>
+					<td>24</td>
+					<td>.613</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>Phoenix Suns</td>
+					<td>62</td>
+					<td>37</td>
+					<td>25</td>
+					<td>.596</td>
+					<td>3</td>
+				</tr>
+				<!-- outras linhas da tabela -->
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
