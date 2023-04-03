@@ -171,13 +171,21 @@
 }
 /*Formatação dos textos*/
 .textos {  
-    text-align: center;
+    text-align: center ;
+
 }
+p {
+    margin: 25px 50px 75px 100px;
+  }
 /*Formatação de imagens*/
 .img {
     text-align: center;
 }
+/*Formatação de videos*/
+.videos {
+    text-align: center;
+}
 /*Formatação de cadastro*/
 .cad{
-    text-align: right;
+    text-align: center;
 }
