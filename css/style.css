@@ -128,6 +128,8 @@
     height: 155px;
 }
 
+/* elenco*/
+
 .card {
     overflow: hidden;
     width: 1210px;
@@ -197,6 +199,9 @@
 }
 
 
+
+/*footer (rodape) */
+
 :root{
     --color-neutral-0: #0e0c0c;
     --color-neutral-10: #171717;
@@ -205,9 +210,6 @@
     
 
 }
-
-
-
 
 
 footer{
@@ -332,13 +334,11 @@ footer{
 
 
 
-*{
-	box-sizing: border-box;
-}
 
-body{
-    background-image: radial-gradient(#323232 ,rgb(15, 11, 11));
-}
+
+
+
+/*Historia*/
 
 .timeline{
 	position: relative;
@@ -432,37 +432,9 @@ body{
 	left: -55px	;
 }
 
+
+
 /* Responsividade */
-
-@media screen and (max-width: 600px) {
-	.timeline::after{
-		left: 31px;
-	}
-
-	.container{
-		width: 100%;
-		padding-left: 70px;
-		padding-right: 25px;
-	}
-
-	.container::before{
-		left: 60px;
-		border: medium solid white;
-		border-width: 10px 10px 10px 0;
-		border-color: transparent white transparent transparent;
-	}
-
-	.left::after,
-	.right::after{
-		left: 15px;
-	}
-
-	.right{
-		left: 0%;
-	}
-	
-}
-
 
 body {
     background-image: radial-gradient(#323232 ,rgb(15, 11, 11));
@@ -560,6 +532,12 @@ margin-left: 10px;
 .navigation ul li a:hover{
     border-bottom: 3px solid #fff;
 }
+
+
+
+
+/*pagina inicial*/
+
 .main{
     overflow: hidden;
 }
